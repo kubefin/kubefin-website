@@ -26,8 +26,8 @@ module.exports = {
           '<div class="header-item"><span>KubeFin v0.1.0 is now available.(2023-10-11)</span> <a target="_blank" style="color: var(--ifm-color-primary)" rel="noopener noreferrer" href="https://github.com/kubefin/kubefin/releases/tag/v0.1.0">Read Release Note</a></div>',
     },
     algolia: {
-      appId: '48TL8ZMYPM',
-      apiKey: '8e3c3e4394b663b8a2be16b5b88cf5b0',
+      appId: 'Q10WTU7MC9',
+      apiKey: 'f1e2a152877330bf9852ac76ca7499fa',
       indexName: 'kubefin',
       contextualSearch: false,
     },

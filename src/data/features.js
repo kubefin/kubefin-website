@@ -19,7 +19,7 @@ const features = [
     description: (
       <p>
         <Translate>
-          Once KubeFin is installed in clusters, it will analyze cloud resources usage and do right-sizing(CPU/Memory Request right-sizing, EC2 nodes' spec right-sizing and Spot optimization etc) automatically to reduce your cloud cost up to 40%.   
+          Once KubeFin is installed in clusters, it will analyze cloud resources usage and do multidimensional cost optimization(CPU/Memory Request right-sizing, EC2 nodes' spec right-sizing and Spot optimization etc) automatically to reduce your cloud cost.   
         </Translate>
       </p>
     ),
@@ -31,7 +31,7 @@ const features = [
     description: (
       <p>
         <Translate>
-          KubeFin will continuously collect and analyze workload load information, continuously optimize cluster resource, and reduce cluster costs.
+          KubeFin will continuously profile the workloads and categorize workloads within the cluster in detail, enabling each application to be scheduled on the most "appropriate" node. For example, highly fault-tolerant workloads can be scheduled on Spot nodes, and workloads supporting ARM architecture can be scheduled on ARM nodes. Based on the workloads profile, continuous cost optimization will be carried out.
         </Translate>
       </p>
     ),

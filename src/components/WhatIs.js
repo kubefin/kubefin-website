@@ -11,7 +11,7 @@ const WhatIs = () => (
                     <p className="hero__subtitle">
                         <small>
                             <Translate>
-                            Kubernetes + FinOps = KubeFin! It is an One-Stop platform for Kubernetes that enables you to efficiently gain insights and reduce costs for your Kubernetes clusters.
+                            Kubernetes + FinOps = KubeFin! It is an One-Stop platform for Kubernetes that enables you to efficiently gain insights and reduce costs for your one or multiple Kubernetes clusters.
                             </Translate>
                             <br />
                             <br />

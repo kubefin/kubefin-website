@@ -17,4 +17,4 @@ TBD
 
 ## What's Next
 
-* Start to [install KubeFin](../installation).
+* Start to [install KubeFin](../install.md).

@@ -29,6 +29,30 @@ module.exports = {
         },
       ],
     },
+    {
+      type: 'category',
+      collapsed: true,
+      label: 'Core Concepts',
+      items: [
+        {
+          type: 'doc',
+          label: 'CustomAllocationConfiguration',
+          id: 'concepts/customallocationconfiguration',
+        },
+      ],
+    },
+    {
+      type: 'category',
+      collapsed: true,
+      label: 'Tutorials',
+      items: [
+        {
+          type: 'doc',
+          label: 'View CustomResource Allocation',
+          id: 'tutorials/cr-allocation',
+        },
+      ],
+    },
     'roadmap/README',
   ],
 };

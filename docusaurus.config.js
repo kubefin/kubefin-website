@@ -22,8 +22,7 @@ module.exports = {
     announcementBar: {
       id: 'start',
       content:
-          '<div class="header-item">⭐️ If you like KubeFin, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kubefin/kubefin">GitHub</a>!⭐️</div>' +
-          '<div class="header-item"><span>KubeFin v0.1.0 is now available.(2023-10-11)</span> <a target="_blank" style="color: var(--ifm-color-primary)" rel="noopener noreferrer" href="https://github.com/kubefin/kubefin/releases/tag/v0.1.0">Read Release Note</a></div>',
+          '<div class="header-item">⭐️ If you like KubeFin, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kubefin/kubefin">GitHub</a>!⭐️</div>',
     },
     algolia: {
       appId: 'Q10WTU7MC9',
@@ -96,7 +95,7 @@ module.exports = {
       ],
       copyright: `
         <br />
-        <strong>© KubeFin Authors ${new Date().getFullYear()} | Documentation Distributed under <a href="https://creativecommons.org/licenses/by/4.0">CC-BY-4.0</a> </strong> 
+        <strong>© KubeFin Authors ${new Date().getFullYear()} | Documentation Distributed under <a href="https://creativecommons.org/licenses/by/4.0">CC-BY-4.0</a> </strong>
         <br />
         <br />
         © ${new Date().getFullYear()} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.

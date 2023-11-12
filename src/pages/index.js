@@ -8,6 +8,7 @@ import GitHubButton from 'react-github-btn';
 import FeatureList from '../components/FeatureList';
 import Button from '../components/button';
 import WhatIs from '../components/WhatIs';
+import Integration from '../components/Integration';
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -54,6 +55,8 @@ export default function Home() {
       <WhatIs />
 
       <FeatureList />
+
+      <Integration />
     </Layout>
   );
 }

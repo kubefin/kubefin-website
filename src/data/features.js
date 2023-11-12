@@ -14,12 +14,12 @@ const features = [
     ),
   },
   {
-    title: <Translate>Optimize Cost automatically (Available soon)</Translate>,
+    title: <Translate>Optimize Cost Automatically (Available soon)</Translate>,
     imgUrl: 'img/optimize-cost-automatically.png',
     description: (
       <p>
         <Translate>
-          Once KubeFin is installed in clusters, it will analyze cloud resources usage and do multidimensional cost optimization(CPU/Memory Request right-sizing, EC2 nodes' spec right-sizing and Spot optimization etc) automatically to reduce your cloud cost.   
+          Once KubeFin is installed in clusters, it will analyze cloud resources usage and do multidimensional cost optimization(CPU/Memory Request right-sizing, EC2 nodes' spec right-sizing and Spot optimization etc) automatically to reduce your cloud cost.
         </Translate>
       </p>
     ),

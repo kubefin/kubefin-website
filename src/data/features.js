@@ -3,7 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate';
 
 const features = [
   {
-    title: <Translate>Cost Insights</Translate>,
+    title: <Translate>Cost insights</Translate>,
     imgUrl: 'img/cost-insights.png',
     description: (
       <p>
@@ -14,7 +14,7 @@ const features = [
     ),
   },
   {
-    title: <Translate>Optimize Cost Automatically (Available soon)</Translate>,
+    title: <Translate>Optimize cost automatically(available soon)</Translate>,
     imgUrl: 'img/optimize-cost-automatically.png',
     description: (
       <p>
@@ -26,7 +26,7 @@ const features = [
     reverse: true,
   },
   {
-    title: <Translate>Optimize Cost Continually(Available soon)</Translate>,
+    title: <Translate>Optimize cost continually(available soon)</Translate>,
     imgUrl: 'img/optimize-cost-continually.png',
     description: (
       <p>

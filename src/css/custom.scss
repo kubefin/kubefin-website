@@ -315,10 +315,12 @@ iframe {
 }
 
 .rotating-tools-wrapper {
-  width: 90%;
-  
+  // Please edit here to set the size
+  width: 30%;
+
   .span3 {
-    width: calc(3 / 24 * 100%);
+    // Please edit here to set the logo number, 8/24 means 3 logos
+    width: calc(8 / 24 * 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,15 +331,13 @@ iframe {
       width: calc(1 / 4 * 100%);
     }
   }
-  .tool-circle-item {
+  .tool-item {
     display: flex;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    border-radius: 1000px;
-    box-shadow: 2px 2px 0 3px #e7f2fe;
     img {
       width: 65%;
     }

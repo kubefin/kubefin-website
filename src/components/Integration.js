@@ -10,6 +10,10 @@ const Integration = () => {
         title: 'Knative',
         logo: '/img/logos/knative.png',
     },
+    {
+      title: 'Kubeflow',
+      logo: '/img/logos/kubeflow.svg',
+    },
   ];
 
   return (

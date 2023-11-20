@@ -54,6 +54,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'adopters',
+          label: 'Adopters',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/kubefin/community',
           label: 'Community',
           position: 'left',
@@ -213,6 +218,18 @@ module.exports = {
           blogSidebarCount: 'ALL',
           showReadingTime: true,
           editUrl: 'https://github.com/kubefin/kubefin-website/tree/main/',
+        },
+        pages: {
+          path: "src/pages",
+          routeBasePath: "/",
+          include: ["**/*.{js,jsx,ts,tsx,md,mdx}"],
+          exclude: [
+            "**/_*.{js,jsx,ts,tsx,md,mdx}",
+            "**/_*/**",
+            "**/*.test.{js,jsx,ts,tsx}",
+            "**/__tests__/**",
+          ],
+          mdxPageComponent: "@theme/MDXPage",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),

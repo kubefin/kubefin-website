@@ -22,9 +22,14 @@ module.exports = {
           items: [
             {
               type: 'doc',
-              label: 'kubectl',
-              id: 'installation/kubectl',
+              label: 'Install KubeFin with kubectl',
+              id: 'installation/install-with-kubectl',
             },
+            {
+              type: 'doc',
+              label: 'Install KubeFin for multiple clusters',
+              id: 'installation/multi-cluster-installation',
+            }
           ],
         },
       ],

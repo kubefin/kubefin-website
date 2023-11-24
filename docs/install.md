@@ -13,8 +13,13 @@ If the public cloud is not listed, KubeFin will calculate the cost with default 
 
 There is only one installation method available temporarily.
 
-- [Install KubeFin with kubectl](./installation/kubectl.md): Install KubeFin with one kubectl command.
+- [Install KubeFin with kubectl](./installation/install-with-kubectl.md)
 
 :::info
 We will provide more installation methods in the future, including Helm and operator.
 :::
+
+## Install KubeFin within multiple clusters
+
+KubeFin can be deployed to view the resource/cost allocation of multiple clusters, please refer to:
+- [multi-cluster installation](./installation/multi-cluster-installation.md)

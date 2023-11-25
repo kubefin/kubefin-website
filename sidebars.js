@@ -27,7 +27,7 @@ module.exports = {
             },
             {
               type: 'doc',
-              label: 'Install KubeFin for multiple clusters',
+              label: 'Install KubeFin within multiple clusters',
               id: 'installation/multi-cluster-installation',
             }
           ],

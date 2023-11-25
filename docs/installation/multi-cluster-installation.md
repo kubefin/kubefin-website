@@ -1,5 +1,5 @@
 ---
-title: Install KubeFin for multiple clusters
+title: Install KubeFin within multiple clusters
 ---
 
 ## Introduction
@@ -28,7 +28,7 @@ wget https://github.com/kubefin/kubefin/releases/latest/download/kubefin-seconda
 
 ## Pointing to the TSDB
 
-The component `kubefin-agent` will collect metrics and push them to the primary clusters TSDB. So please modify the endpoint in `kubefin-secondary.yaml` to point kubefin-agent to the primary cluster's TSDB:
+The component `kubefin-agent` will collect metrics and push them to the primary clusters TSDB. So please modify the endpoint in `kubefin-secondary.yaml` to point `kubefin-agent` to the primary cluster's TSDB:
 ```yaml
       ...
       # Substitute 127.0.0.1 with the TSDB adderss in primary cluster
@@ -41,6 +41,11 @@ The component `kubefin-agent` will collect metrics and push them to the primary 
 For example:
 * Use a `LoadBalancer` service for the TSDB in public cloud environments, and set the LoadBalancer’s public IP as the TSDB address.
 * For interconnected private clouds, use a `NodePort` service, specifying the primary cluster node's IP address as the TSDB address.
+
+By default, KubeFin installs the TSDB with a `LoadBalancer` service. To change this, run following command with primary cluster's `KUBECONFIG`:
+```sh
+kubectl edit svc -nkubefin mimir
+```
 
 ## Setting the cluster name
 

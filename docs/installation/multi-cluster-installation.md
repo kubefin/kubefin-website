@@ -12,9 +12,9 @@ Understand two key roles in KubeFin's multi-cluster setup:
 
 Below is a streamlined guide on deploying kubefin-agent on secondary clusters to enable multi-cluster resource and cost monitoring.
 
-## Deploying KubeFin on primary cluster
+## Deploying KubeFin in primary cluster
 
-To set up KubeFin on the primary cluster, visit:
+To set up KubeFin in the primary cluster, visit:
 - [Install KubeFin with kubectl](../install.md#installation-method): Install KubeFin with one kubectl command.
 
 ## Preparing necessary manifest for secondary clusters

@@ -58,6 +58,18 @@ module.exports = {
         },
       ],
     },
+    {
+      type: 'category',
+      collapsed: true,
+      label: 'Integration',
+      items: [
+        {
+          type: 'doc',
+          label: "Integration with Prometheus",
+          id: 'integration/integration-with-prometheus',
+        },
+      ]
+    },
     'roadmap/README',
   ],
 };

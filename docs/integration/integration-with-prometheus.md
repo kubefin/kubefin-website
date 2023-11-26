@@ -39,6 +39,8 @@ helm install my-prometheus --repo https://prometheus-community.github.io/helm-ch
   --namespace prometheus --create-namespace \
   --set prometheus-pushgateway.enabled=false \
   --set alertmanager.enabled=false \
+  --set prometheus-node-exporter.enable=false \
+  --set kube-state-metrics.enable=false \
   -f kubefin-prometheus-job.yaml
 ```
 

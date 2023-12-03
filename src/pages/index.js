@@ -9,6 +9,7 @@ import FeatureList from '../components/FeatureList';
 import Button from '../components/button';
 import WhatIs from '../components/WhatIs';
 import Integration from '../components/Integration';
+import Demonstration from '../components/Demonstration';
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -53,6 +54,8 @@ export default function Home() {
       </header>
 
       <WhatIs />
+
+      <Demonstration />
 
       <FeatureList />
 

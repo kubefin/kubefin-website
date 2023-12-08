@@ -19,6 +19,10 @@ module.exports = {
   },
   themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
+    metadata: [
+      {name: 'go-import', content: 'kubefin.dev/kubefin git https://github.com/kubefin/kubefin'},
+      {name: 'go-import', content: 'kubefin.dev/go-tools git https://github.com/kubefin/go-tools'},
+    ],
     announcementBar: {
       id: 'start',
       content:

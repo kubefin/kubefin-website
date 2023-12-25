@@ -14,6 +14,10 @@ const Integration = () => {
       title: 'Kubeflow',
       logo: '/img/logos/kubeflow.svg',
     },
+    {
+      title: "Argo Workflows",
+      logo: '/img/logos/argo.png',
+    },
   ];
 
   return (

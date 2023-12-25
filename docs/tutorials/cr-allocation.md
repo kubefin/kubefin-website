@@ -87,7 +87,7 @@ spec:
 
 This lua script parses the `metadata.name` field of argo workflow as a label selector to locate the corresponding pods and subsequently computes their resources and costs.
 
-After deploying KubeFin in a cluster with argo workflow and initiating the appropriate port forwarding, you can observe resource and cost allocation for KSVC in the dashboard or through the API, as shown below:
+After deploying KubeFin in a cluster with argo workflow and initiating the appropriate port forwarding, you can observe resource and cost allocation for argo workflow in the dashboard or through the API, as shown below:
 
 ```sh
 $ curl  http://127.0.0.1:8080/api/v1/costs/clusters/446a4a30-eab8-4c3b-a110-67a6244df058/workload?aggregateBy=argo-wf | jq .

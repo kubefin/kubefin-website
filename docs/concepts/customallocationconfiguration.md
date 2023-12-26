@@ -1,6 +1,4 @@
----
-title: CustomAllocationConfiguration
----
+# CustomAllocationConfiguration
 
 In the Kubernetes ecosystem, there are numerous CustomResources, and achieving visualization of resources and costs for these CustomResources is a significant challenge. To address this, KubeFin has designed and implemented the CustomAllocationConfiguration, which enables visualization of resources and costs for various CustomResources (CRs).
 

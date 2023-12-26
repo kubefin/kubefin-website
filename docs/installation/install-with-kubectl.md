@@ -1,6 +1,4 @@
----
-title: Install KubeFin with kubectl
----
+# Install KubeFin with kubectl
 
 ## Prerequisites
 

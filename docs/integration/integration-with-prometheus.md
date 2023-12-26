@@ -1,6 +1,4 @@
----
-title: Integration with Prometheus
----
+# Integration with Prometheus
 
 ## Introduction
 

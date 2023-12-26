@@ -1,6 +1,4 @@
----
-title: Roadmap
----
+# Roadmap
 
 The goal of KubeFin is to **Drive the most value from every dollar you invest in the cloud**. We will make effort on the following aspects to make the goal achievable:
 

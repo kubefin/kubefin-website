@@ -1,0 +1,37 @@
+import kubefinArch from '../resources/getting-started/kubefin-cost-insights-arch.png';
+import allClusterCosts from '../resources/getting-started/cost-insights-all-clusters.png';
+import singleClusterCosts from '../resources/getting-started/cost-insights-single-cluster.png';
+
+# Introduction
+
+## What is KubeFin?
+
+KubeFin is a platform built on Kubernetes that enables you to efficiently gain insights into and reduce costs for your Kubernetes clusters. With KubeFin, you can effortlessly analyze and minimize your cloud expenses, ensuring optimal utilization of resources.
+
+Currently, the cost insights feature is supported, optimization will be available soon.
+
+<p align="center">
+    <img src={kubefinArch} width="80%" align="center"/>
+</p>
+
+## Highlights
+
+### Cost insights
+
+Easily view the cost overview of multiple clusters from different clouds in one page. Additionally, KubeFin allows you to dive deeper into the cost details of each cluster by analyzing various dimensions such as nodes, workloads, namespaces and etc.
+
+<p align="center">
+    <img src={allClusterCosts} width="45%"/> <img src={singleClusterCosts} width="45%"/>
+</p>
+
+### Optimize cost automatically(available soon)
+
+Once KubeFin is installed in clusters, it will analyze cloud resources usage and do right-sizing(CPU/Memory Request right-sizing, EC2 nodes' spec right-sizing and Spot optimization etc) automatically to reduce your cloud cost up to 40%.
+
+### Optimize cost continually(available soon)
+
+KubeFin will continuously profile and categorize workloads within the cluster in detail, enabling each application to be scheduled to the most "suitable" node, to ensure ongoing resource usage optimization and cost optimization.
+
+## What's Next
+
+* Start to [install KubeFin](../install.md).

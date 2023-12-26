@@ -48,7 +48,7 @@ helm install my-prometheus --repo https://prometheus-community.github.io/helm-ch
 
 To configure the query backend, update the KubeFin deployment with the correct Prometheus endpoint:
 ```sh
-kubectl edit deployment -nkubefin kubefin-cost-analyzer
+kubectl edit deployment -nkubefin-system kubefin-cost-analyzer
 ```
 
 Modify the `QUERY_BACKEND_ENDPOINT` environmental variable value to point to your Prometheus server. Add or edit the following section in the deployment manifest:
@@ -74,7 +74,7 @@ Modify the `QUERY_BACKEND_ENDPOINT` environmental variable value to point to you
 
 Post-installation, access the unified dashboard for a holistic view of your clusters’ resource and cost allocation by running the following command:
 ```sh
-kubectl port-forward -nkubefin svc/kubefin-cost-analyzer-service --address='0.0.0.0' 8080 3000
+kubectl port-forward -nkubefin-system svc/kubefin-cost-analyzer-service --address='0.0.0.0' 8080 3000
 ```
 
 Then, navigate to [http://localhost:3000](http://localhost:3000) to access the KubeFin dashboard.

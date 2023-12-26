@@ -44,7 +44,7 @@ For example:
 
 By default, KubeFin installs the TSDB with a `LoadBalancer` service. To change this, run following command with primary cluster's `KUBECONFIG`:
 ```sh
-kubectl edit svc -nkubefin mimir
+kubectl edit svc -nkubefin-system mimir
 ```
 
 ## Setting the cluster name
@@ -76,7 +76,7 @@ kubectl apply -f kubefin-secondary.yaml
 Post-installation, access the unified dashboard for a holistic view of your clusters’ resource and cost allocation by running the following command with the primary cluster `KUBECONFIG`:
 
 ```sh
-kubectl port-forward -nkubefin svc/kubefin-cost-analyzer-service --address='0.0.0.0' 8080 3000
+kubectl port-forward -nkubefin-system svc/kubefin-cost-analyzer-service --address='0.0.0.0' 8080 3000
 ```
 
 Then, navigate to [http://localhost:3000](http://localhost:3000) to access the KubeFin dashboard.

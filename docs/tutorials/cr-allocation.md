@@ -1,6 +1,4 @@
----
-title: View CustomResource resource/cost allocation
----
+# View CustomResource resource/cost allocation
 
 
 ## Before starting

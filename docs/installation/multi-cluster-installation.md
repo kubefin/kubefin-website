@@ -1,6 +1,4 @@
----
-title: Install KubeFin within multiple clusters
----
+# Install KubeFin within multiple clusters
 
 ## Introduction
 

@@ -1,10 +1,9 @@
----
-title: Installation Overview
----
+# Installation Overview
 
 ## Supported public cloud
 
 * [Alibaba Cloud](https://www.alibabacloud.com/)
+* [AWS Cloud](https://aws.amazon.com/)
 * On-premises
 
 If the public cloud is not listed, KubeFin will calculate the cost with default price configuration. And other public clouds will be supported in the future.

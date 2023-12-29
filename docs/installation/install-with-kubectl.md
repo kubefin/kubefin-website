@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Before installing KubeFin, please ensure that the metrics-server is running. If it is not, please execute the following command:
+Before installing KubeFin, please ensure the metrics API is functioning properly. If it is not, you can execute the following command to install the metrics server:
 ```sh
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
@@ -19,8 +19,9 @@ kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/late
    kubectl apply -f https://github.com/kubefin/kubefin/releases/latest/download/kubefin-primary.yaml
    ```
 
-## Visit KubeFin Dashboard
-Once your KubeFin has been installed, wait for the pod to be ready and port forward with:
+## Access the KubeFin Dashboard
+
+After installing KubeFin, wait for the pod to be ready, then establish a port-forwarding session with the following command:
 ```sh
 kubectl port-forward -nkubefin-system svc/kubefin-cost-analyzer-service --address='0.0.0.0' 8080 3000
 ```

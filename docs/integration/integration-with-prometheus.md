@@ -26,7 +26,7 @@ extraScrapeConfigs: |
     scheme: http
     dns_sd_configs:
     - names:
-      - kubefin-agent-service.kubefin
+      - kubefin-agent-service.kubefin-system
       type: 'A'
       port: 8080
 ```

@@ -81,7 +81,7 @@ module.exports = {
           items: [
             {
               label: 'Slack ( #kubefin )',
-              href: 'https://kubefin.slack.com/',
+              href: 'https://app.slack.com/client/T08PSQ7BQ/C06C56XDM63',
             },
             {
               html: '<div class="wechat"> <a class="wechat-label">Wechat Group(Scan code to request joining)</a> <a class="wechat-img" rel="noreferrer noopener" aria-label="Wechat Group"><img src="img/kubefin-assistant.jpg" alt="Broker wechat to add you into the user group."></div>',
